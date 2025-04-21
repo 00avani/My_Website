@@ -24,16 +24,16 @@ Optional: Git installed locally for cloning and managing the repository (Git Dow
 
 Test the Website:
 
-Visit the provided URL to ensure the site loads correctly.
-Check that the profile picture displays, text is readable, and the layout is responsive on mobile devices.
+Visited and tested the provided URL to ensure the site loads correctly.
+Also,Checking that the profile picture displays, text is readable, and the layout is responsive on mobile devices.
 
 
 Usage
 
-Viewing: Access the live site at https://your-username.github.io/your-repository-name.
-Editing Content:
-Update index.html to modify text (e.g., About Me, Education).
-Replace avani-profile.png with a new image (recommended: 250x250px, PNG format).
+Viewing: Accessed the live site at https://your-username.github.io/your-repository-name.
+Edited Content:
+Updated index.html to modify text (e.g., About Me, Education).
+Replaced avani-profile.png with a new image (recommended: 250x250px, PNG format).
 Commit changes:git add .
 git commit -m "Update content"
 git push origin main
@@ -41,46 +41,26 @@ git push origin main
 
 
 Styling:
-Edit style.css to change colors (e.g., #fdf6e3 for background), fonts, or layout.
+Edited style.css to change colors (e.g., #fdf6e3 for background), fonts, or layout.
 Example: Adjust .profile-pic for a different image size.
 
 
 Testing Responsiveness:
-Use browser developer tools (F12 > Toggle Device Toolbar) to simulate various screen sizes.
-Test across browsers (Chrome, Firefox, Safari) for compatibility.
-
-
+Used browser developer tools (F12 > Toggle Device Toolbar) to simulate various screen sizes.
 
 Customization
 
-Profile Picture: Change the src attribute in index.html’s <img> tag to a new image file.
-Colors: Modify style.css (e.g., change #004080 for headings or #fdf6e3 for the body background).
-Fonts: Update the Google Fonts link in index.html (e.g., to Open Sans) and adjust font-family in style.css.
-New Sections: Add sections (e.g., Portfolio) by copying the <section> structure in index.html and styling in style.css.
-Contact Form: The form is static. To make it functional, integrate a service like Formspree:<form action="https://formspree.io/your-email" method="POST">
+Profile Picture: Changed the src attribute in index.html’s <img> tag to a new image file.
+Colors: Modified style.css (e.g., change #004080 for headings or #fdf6e3 for the body background).
+Fonts: Updated the Google Fonts link in index.html (e.g., to Open Sans) and adjusted font-family in style.css.
+New Sections: Added sections (e.g., Portfolio) by copying the <section> structure in index.html and styling in style.css.
+Contact Form: The form is static. To make it functional, integrated a service like Formspree:<form action="https://formspree.io/your-email" method="POST">
 
-Update input name attributes and sign up at formspree.io.
+Updated input name attributes and signed up at formspree.io.
 
 Notes
-
-Ensure avani-profile.png is in the root directory, or update the image path in index.html.
+Ensuring avani-profile.png is in the root directory, or updated the image path in index.html.
 The contact form requires a backend service for functionality (e.g., Formspree, Netlify Forms).
-Optimize avani-profile.png with tools like TinyPNG to reduce load times.
-For SEO, add meta tags in index.html:<meta name="description" content="Avani Pandya's resume website, showcasing education and achievements.">
+Optimized avani-profile.png with tools like TinyPNG to reduce load times.
+For SEO, added meta tags in index.html:<meta name="description" content="Avani Pandya's resume website, showcasing education and achievements.">
 <meta name="keywords" content="Avani Pandya, resume, BBA, IIM Bangalore">
-
-
-
-Contributing
-This is a personal project, but feedback is welcome! To contribute:
-
-Fork the repository.
-Create a branch (git checkout -b feature/your-feature).
-Commit changes (git commit -m "Add feature").
-Push to the branch (git push origin feature/your-feature).
-Open a Pull Request.
-
-Contact
-For questions or suggestions, reach out via the website’s contact form or email me at avanipandya1112@gmail.com
-
-© 2025 Avani Pandya
